@@ -53,7 +53,7 @@ configureAdmin () {
   sfdx force:user:permset:assign -u $SCRATCH_ORG_NAME -n HealthCloudStandard
   sfdx force:user:permset:assign -u $SCRATCH_ORG_NAME -n HealthCloudUtilizationManagement
   sfdx force:apex:execute -u $SCRATCH_ORG_NAME -f demo/scripts/enable-person-account-record-type.apex
-  sfdx force:apex:execute -u $SCRATCH_ORG_NAME -f demo/scripts/reset-user-password.apex
+  #sfdx force:apex:execute -u $SCRATCH_ORG_NAME -f demo/scripts/reset-user-password.apex
 }
 
 #

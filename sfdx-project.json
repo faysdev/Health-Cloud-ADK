@@ -1,0 +1,14 @@
+{
+  "packageDirectories": [{
+    "path": "force-app",
+    "default": true
+  }],
+  "packageAliases": {
+    "HealthCloud@222": "04t1C000000Y1Qe",
+    "HealthCloud@224": "04t1C000000Y1bD",
+    "HealthCloud-UnmanagedExtension": "04tC0000001Eeby"
+  },
+  "namespace": "",
+  "sfdcLoginUrl": "https://login.salesforce.com",
+  "sourceApiVersion": "47.0"
+}

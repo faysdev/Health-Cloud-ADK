@@ -1,0 +1,22 @@
+#OSX-specific exclusions
+.[dD][sS]_[sS]tore
+
+#SFDX exclusions
+.DS_Store
+.sfdx
+.project
+.salesforce
+.settings
+node_modules
+.idea
+
+#VSCode exclusions
+.vscode
+
+#Sublime nature exclusions
+*.sublime-workspace
+*.sublime-project
+
+#Data exclusions
+data/preprocess.out
+

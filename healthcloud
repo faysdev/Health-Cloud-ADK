@@ -26,7 +26,7 @@ start () {
 #
 install () {
   printf "${HEADLINE}Installing Health Cloud${END}\n"
-  sfdx force:package:install -u $SCRATCH_ORG_NAME --package $HEALTHCLOUD_PACKAGE -w 40
+  sfdx force:package:install -u $SCRATCH_ORG_NAME --package $HEALTHCLOUD_PACKAGE -w 50
   sfdx force:package:install -u $SCRATCH_ORG_NAME --package HealthCloud-UnmanagedExtension -w 30
 }
 

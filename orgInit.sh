@@ -1,7 +1,10 @@
 #!/bin/bash
 
-# Source the env file to get configurable values
-. ./.env
+#
+# Configuration
+#
+#. ./.env
+PRERELEASE=false
 
 #
 # Constants

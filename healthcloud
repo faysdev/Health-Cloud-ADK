@@ -144,7 +144,7 @@ main () {
       open
       ;;
     *)
-      printf $"${INFO}Usage $0 {start|stop|open} [--prerelease]${END}\n"
+      printf $"${INFO}Usage $0 {create|init|stop|open} [--prerelease]${END}\n"
       exit 1
   esac
 }

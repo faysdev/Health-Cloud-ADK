@@ -3,27 +3,27 @@
 #
 # Constants
 #
-HEADLINE='\033[90m=== \033[34m' # Blue
-INFO='\033[90m' # Grey
-WARNING='\033[1;33m' # Yellow
-END='\033[0m' # No Color
+#HEADLINE='\033[90m=== \033[34m' # Blue
+#INFO='\033[90m' # Grey
+#WARNING='\033[1;33m' # Yellow
+#END='\033[0m' # No Color
 
 #
 # Determine global variables
 # NOTE: "IF/THEN" statements do not work with heroku deployer, so instead comment/uncomment the correct section below
 #
-# PRERELEASE=false
-# printf "${HEADLINE}Preparing to configure a Pre-release Scratch Org${END}\n"
-# SCRATCH_ORG_NAME="healthcloud-prerelease"
-# SCRATCH_ORG_DEF="config/healthcloud-prerelease-scratch-def.json"
-# HEALTHCLOUD_PACKAGE="HealthCloud@224"
+# PRERELEASE=true
+#printf "${HEADLINE}Preparing to configure a Pre-release Scratch Org${END}\n"
+SCRATCH_ORG_NAME="healthcloud-prerelease"
+SCRATCH_ORG_DEF="config/healthcloud-prerelease-scratch-def.json"
+HEALTHCLOUD_PACKAGE="HealthCloud@224"
 # printf "${WARNING}Health Cloud Pre-Release Not Available${END}\n"
 
-# PRERELEASE=true
+# PRERELEASE=false
 # printf "${HEADLINE}Preparing to configure the latest released Scratch Org version${END}\n"
-SCRATCH_ORG_NAME="healthcloud"
-SCRATCH_ORG_DEF="config/healthcloud-scratch-def.json"
-HEALTHCLOUD_PACKAGE="HealthCloud@222"
+#SCRATCH_ORG_NAME="healthcloud"
+#SCRATCH_ORG_DEF="config/healthcloud-scratch-def.json"
+#HEALTHCLOUD_PACKAGE="HealthCloud@222"
 
 #
 # Create Health Cloud Scratch Org
